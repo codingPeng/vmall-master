@@ -1,0 +1,42 @@
+.cover-link {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 4;
+}
+
+.cover-link:hover {
+  box-shadow: inset 0 0 38px rgba(0,0,0,.08);
+  transition: all .15s ease;
+}
+
+.box {
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  margin-top: 25px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0,0,0,.14);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 3px 8px -6px rgba(0,0,0,.1);
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.no-wrap {
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
